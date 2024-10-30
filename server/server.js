@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 const cors = require('cors');
 app.use(cors({
-    origin: process.env.CLIENT_URL,
+    origin: "https://ecommerce-kappa-snowy-45.vercel.app",
     credentials: true
 }));
 const cookieParser = require('cookie-parser');
