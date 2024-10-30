@@ -13,6 +13,7 @@ const cookieParser = require('cookie-parser');
 const port = process.env.PORT || 8080;
 const connect = require('./config/db');
 
+
 app.use(express.json());
 app.use(cookieParser());
 // setting all the routes
